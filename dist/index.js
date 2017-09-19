@@ -1,8 +1,8 @@
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
-        define(["exports", "react"], factory);
+        define(['exports', 'react'], factory);
     } else if (typeof exports !== "undefined") {
-        factory(exports, require("react"));
+        factory(exports, require('react'));
     } else {
         var mod = {
             exports: {}
@@ -11,7 +11,7 @@
         global.index = mod.exports;
     }
 })(this, function (exports, _react) {
-    "use strict";
+    'use strict';
 
     Object.defineProperty(exports, "__esModule", {
         value: true
@@ -83,20 +83,12 @@
         }
 
         _createClass(MyComponent, [{
-            key: "componentDidMount",
-            value: function componentDidMount() {
-                // some logic here - we only test if the method is called
-            }
-        }, {
-            key: "render",
+            key: 'render',
             value: function render() {
                 return _react2.default.createElement(
-                    "div",
-                    { className: "my-component" },
-                    _react2.default.createElement("i", { className: "icon-test" }),
-                    _react2.default.createElement("i", { className: "icon-test" }),
-                    _react2.default.createElement("i", { className: "icon-test" }),
-                    _react2.default.createElement("button", { onClick: this.props.handleClick, type: "button" })
+                    'div',
+                    null,
+                    'I am npm package react component'
                 );
             }
         }]);
