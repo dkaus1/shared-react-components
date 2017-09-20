@@ -73,30 +73,30 @@
         if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
     }
 
-    var MyComponent = function (_React$Component) {
-        _inherits(MyComponent, _React$Component);
+    var HeaderComponent = function (_React$Component) {
+        _inherits(HeaderComponent, _React$Component);
 
-        function MyComponent() {
-            _classCallCheck(this, MyComponent);
+        function HeaderComponent() {
+            _classCallCheck(this, HeaderComponent);
 
-            return _possibleConstructorReturn(this, (MyComponent.__proto__ || Object.getPrototypeOf(MyComponent)).apply(this, arguments));
+            return _possibleConstructorReturn(this, (HeaderComponent.__proto__ || Object.getPrototypeOf(HeaderComponent)).apply(this, arguments));
         }
 
-        _createClass(MyComponent, [{
+        _createClass(HeaderComponent, [{
             key: 'render',
             value: function render() {
                 return _react2.default.createElement(
                     'div',
                     null,
-                    'I am npm package react component'
+                    'I am npm package Header Component'
                 );
             }
         }]);
 
-        return MyComponent;
+        return HeaderComponent;
     }(_react2.default.Component);
 
     ;
 
-    exports.default = MyComponent;
+    exports.default = HeaderComponent;
 });
