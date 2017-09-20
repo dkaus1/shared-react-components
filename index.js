@@ -1,2 +1,4 @@
-module.exports = require('./dist/index');
-module.exports = require('./dist/components/index');
+module.exports = {
+	HeaderComponent :require('./dist/index').default,
+	MessagingComponent : require('./dist/components/index').default
+	} ;

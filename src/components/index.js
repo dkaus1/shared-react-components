@@ -4,13 +4,13 @@
 
 import React from 'react';
 
-class MyComponent2 extends React.Component {
+class MessagingComponent extends React.Component {
   
     render() {
         return (
-            <div>I am npm package react component2</div>
+            <div>I am npm package react MessagingComponent</div>
         )
     }
 };
 
-export default MyComponent2;
+export default MessagingComponent;

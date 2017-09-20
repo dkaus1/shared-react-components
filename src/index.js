@@ -4,13 +4,13 @@
 
 import React from 'react';
 
-class MyComponent extends React.Component {
+class HeaderComponent extends React.Component {
   
     render() {
         return (
-            <div>I am npm package react component</div>
+            <div>I am npm package Header Component</div>
         )
     }
 };
 
-export default MyComponent;
+export default HeaderComponent;
