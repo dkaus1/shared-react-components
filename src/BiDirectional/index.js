@@ -1,5 +1,5 @@
 import React from 'react';
-class BiDirectionalComponent extends React.Component {
+class DataComponent extends React.Component {
 	
 	render() {
 		var _props = this.props;
@@ -18,4 +18,4 @@ class BiDirectionalComponent extends React.Component {
 	  }
   };
 
-  export default BiDirectionalComponent;
+  export default DataComponent;
